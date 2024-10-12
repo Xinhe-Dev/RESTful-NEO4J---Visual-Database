@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: ca.yorku.eecs.AppTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.261 sec <<< FAILURE!
+addActorPass(ca.yorku.eecs.AppTest)  Time elapsed: 0.5 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<200> but was:<400>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at ca.yorku.eecs.AppTest.addActorPass(AppTest.java:77)
+
+addMoviePass(ca.yorku.eecs.AppTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<200> but was:<400>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at ca.yorku.eecs.AppTest.addMoviePass(AppTest.java:100)
+
